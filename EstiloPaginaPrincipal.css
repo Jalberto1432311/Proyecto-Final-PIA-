@@ -1,0 +1,84 @@
+/* Estilos para la barra de navegación y encabezado */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Estilos para los botones de control */
+.controls button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Estilos para el logo y enlaces de navegación */
+.logo img {
+  height: 40px;
+}
+
+.logo nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.logo nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilos para los botones de inicio de sesión y registro */
+.auth button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Estilos para las imágenes de eventos */
+.event-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.event {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.event img {
+  width: 100%;
+}
+
+/* Estilos para las redes sociales y la información de contacto */
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.social-media img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Estilos para el mapa */
+.map {
+  /* Estilos para el mapa (puedes personalizar según el servicio de mapas que uses) */
+}
