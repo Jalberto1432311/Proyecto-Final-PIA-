@@ -11,6 +11,8 @@
         <div class="login-container">
             <img src="Imagenes/LogoDeportes.jpeg" alt="Logo de la empresa" class="logo">
             <h2>Iniciar Sesión</h2>
+            <!-- Elemento para mostrar el mensaje de error -->
+            <div id="error-message">El usuario no está registrado.</div>
             <form action="login.php" method="post">
                 <div class="input-group">
                     <label for="email">Correo Electrónico:</label>
@@ -22,7 +24,12 @@
                 </div>
                 <button type="submit" class="btn">Entrar</button>
             </form>
+            <!-- Enlace de regreso a la página principal -->
+            <div class="return-link">
+                <a href="Pagina Principal.html">No estas Registrado , Volver a la página principal</a>
+            </div>
         </div>
     </div>
+    <script src="JavaScript/ErrorDeIniciodeSecion.js"></script>
 </body>
 </html>

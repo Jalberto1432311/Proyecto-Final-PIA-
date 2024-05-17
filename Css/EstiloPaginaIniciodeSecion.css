@@ -61,3 +61,31 @@ input[type="email"], input[type="password"] {
     margin-bottom: 5px;
     font-weight: bold;
 }
+/* Estilos para el contenedor del formulario de inicio de sesión */
+.login-container {
+    text-align: center; /* Centrar el contenido */
+  }
+  
+  /* Estilo para el botón de "Entrar" */
+  .btn {
+    margin-top: 10px; /* Espacio entre el formulario y el botón */
+  }
+  
+  /* Estilos para el enlace de regreso a la página principal */
+  .return-link {
+    margin-top: 10px; /* Espacio entre el botón y el enlace */
+  }
+  
+  .return-link a {
+    color: #333; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+  }
+  
+  .return-link a:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el mouse sobre él */
+  }
+  #error-message {
+    display: none; /* Por defecto, el mensaje de error está oculto */
+    color: red; /* Color del texto del mensaje de error */
+    margin-bottom: 10px; /* Espacio inferior del mensaje de error */
+  }
