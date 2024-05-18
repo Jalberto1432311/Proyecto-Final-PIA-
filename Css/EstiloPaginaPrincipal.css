@@ -74,11 +74,16 @@
 }
 
 .social-media img {
-  width: 40px;
+  width: 80px;
   margin-right: 10px;
 }
 
 /* Estilos para el mapa */
 .map {
   /* Estilos para el mapa (puedes personalizar según el servicio de mapas que uses) */
+}
+/* Estilos para el contenedor del mapa */
+.map-container {
+  width: 100%;
+  height: 400px; /* Altura del mapa, ajusta según necesites */
 }

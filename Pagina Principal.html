@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="Css/EstiloPaginaPrincipal.css">
 </head>
 <body>
+  <header>
   <div class="header">
     <!-- Logo de la página y enlaces -->
     <div class="logo">
@@ -26,6 +27,7 @@
       <button><a href="Regitro Usuario.html">Registro Gratis</a></button>
     </div>
   </div>
+</header>
   <div class="main-content">
     <!-- Sección de imágenes de eventos -->
     <div class="event-images">
@@ -103,13 +105,14 @@
         <p>Hora: 18:00</p>
         <p>Lugar: Lugar del evento 1</p>
       </div>
+
       <!-- Repite este div para cada evento -->
     </div>
     <!-- Redes sociales y contacto -->
     <div class="contact-info">
       <div class="social-media">
-        <a href="https://www.instagram.com"><img src="instagram.png" alt="Instagram"></a>
-        <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com"><img src="Imagenes/Instagram.jpeg" alt="Instagram"></a>
+        <a href="https://www.facebook.com"><img src="Imagenes/Facebook.jpeg" alt="Facebook"></a>
       </div>
       <div class="address-info">
         <p>Dirección: Calle Principal #123</p>
@@ -119,7 +122,11 @@
     <!-- Mapa de la zona -->
     <div class="map">
       <!-- Aquí puedes insertar un mapa interactivo usando Google Maps u otra herramienta -->
+      <div class="map-container" id="map"></div>
+      <!-- Incluye la API de Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" async defer></script>
     </div>
   </div>
+  <script src="JavaScript/Mapa.js"></script>
 </body>
 </html>
