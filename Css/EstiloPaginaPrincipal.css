@@ -8,6 +8,55 @@
   color: white;
 }
 
+/* Estilos para la sección principal */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Estilos para cada tarjeta de evento */
+.event {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 250px;
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.event p {
+  margin: 10px 0;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.event:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la sección de imágenes de eventos */
+.event-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+
 /* Estilos para los botones de control */
 .controls button {
   background: none;
@@ -100,6 +149,76 @@
 .event img {
   width: 100%;
 }
+
+/* Estilos para el pie de página */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media a img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.social-media a img:hover {
+  transform: scale(1.2);
+}
+
+.address-info p {
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.map {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.map-container {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .social-media {
+      margin-bottom: 20px;
+  }
+
+  .map {
+      width: 90%;
+  }
+}
+
 
 /* Estilos para las redes sociales y la información de contacto */
 .contact-info {
