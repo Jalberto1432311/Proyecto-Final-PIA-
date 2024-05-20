@@ -1,3 +1,4 @@
+/*
 // Función de inicialización del mapa
     function initMap() {
       // Coordenadas del centro del mapa
@@ -14,3 +15,17 @@
 
       // Puedes agregar marcadores, líneas, polígonos, etc., aquí según tus necesidades
     }
+*/
+
+    function initMap() {
+      var location = {lat: 45.8913, Ing: -177.8633}; // Coordenadas de ejemplo
+      var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: location
+      });
+      var marker = new google.maps.Marker({
+          position: location,
+          map: map
+      });
+  }
+  
