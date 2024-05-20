@@ -55,7 +55,7 @@
 
 .carousel-item img {
   object-fit: cover; /* Asegura que la imagen cubra todo el espacio del contenedor */
-  height: 500px; /* Ajusta la altura del carrusel según tus necesidades */
+  height: 300px; /* Ajusta la altura del carrusel según tus necesidades */
 }
 
 .carousel-control-prev-icon,
