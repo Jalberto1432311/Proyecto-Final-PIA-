@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
     <link rel="stylesheet" href="Css/EstiloPaginaPrincipal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -30,5 +31,28 @@
           </div>
     </header>
     <h1>¡Esta es la Tienda!</h1>
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Redes sociales y contacto -->
+        <div class="contact-info">
+          <div class="social-media">
+            <a href="https://www.instagram.com"><img src="Imagenes/Instagram.jpeg" alt="Instagram"></a>
+            <a href="https://www.facebook.com"><img src="Imagenes/Facebook.jpeg" alt="Facebook"></a>
+          </div>
+          <div class="address-info">
+            <p>Dirección: Calle Principal #123</p>
+            <p>Teléfono: (123) 456-7890</p>
+          </div>
+        </div>
+        <!-- Mapa de la zona -->
+        <div class="map">
+          <div class="map-container" id="map"></div>
+          <!-- Incluye la API de Google Maps -->
+          <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" async defer></script>
+        </div>
+      </div>
+    </footer>
+    
+<script src="JavaScript/Mapa.js"></script>
 </body>
 </html>
