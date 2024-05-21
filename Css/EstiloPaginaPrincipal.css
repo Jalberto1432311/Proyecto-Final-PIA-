@@ -197,6 +197,18 @@
   font-size: 14px;
 }
 
+/* Estilos para el mapa */
+.map {
+  
+}
+/* Estilos para el contenedor del mapa */
+.map-container {
+  width: 100%;
+  height: 400px; 
+}
+
+
+
 .map {
   flex: 1;
   margin-left: 20px;
@@ -248,13 +260,23 @@
   margin-right: 10px;
 }
 
-/* Estilos para el mapa */
-.map {
-  /* Estilos para el mapa (puedes personalizar según el servicio de mapas que uses) */
-}
-/* Estilos para el contenedor del mapa */
-.map-container {
-  width: 100%;
-  height: 400px; /* Altura del mapa, ajusta según necesites */
+/* Estilos para la pnatalla "Contáctanos" */
+.container-contactanos {
+  display: flex;
+  align-items: flex-start;
 }
 
+.recuadro-contactanos {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.texto-contactanos {
+  margin-left: 20px;
+}
+
+.container-contactanos p {
+  margin-left: 20px;
+}
