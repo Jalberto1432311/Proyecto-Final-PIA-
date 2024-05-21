@@ -315,6 +315,40 @@
   background-color: #2980b9;
 }
 
+/* Estilos para la pantalla "Galería" */
+
+.recuadro-Galeria {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.contenido-Galeria {
+  padding: 20px;
+}
+
+.titulo-Galeria {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.fecha-Galeria {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.rayitas-Galeria {
+  width: 20px;
+  height: 100%;
+  border-left: 2px dashed #ccc;
+}
+
 
 /* Estilos para la pnatalla "Contáctanos" */
 .container-contactanos {
