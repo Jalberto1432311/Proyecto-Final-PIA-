@@ -260,6 +260,62 @@
   margin-right: 10px;
 }
 
+/* Estilos para la pantalla "Tienda" */
+
+.card-tienda {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.card-tienda img {
+  max-width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.card-tienda h3 {
+  font-size: 1.2em;
+  margin: 0 0 10px;
+}
+
+.card-tienda p {
+  margin: 0 0 10px;
+  color: #666;
+}
+
+.card-tienda .price {
+  font-size: 1.4em;
+  color: #e67e22;
+  margin: 15px 0;
+}
+
+.card-tienda .category {
+  font-size: 0.9em;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+.card-tienda button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.card-tienda button:hover {
+  background-color: #2980b9;
+}
+
+
 /* Estilos para la pnatalla "Contáctanos" */
 .container-contactanos {
   display: flex;
