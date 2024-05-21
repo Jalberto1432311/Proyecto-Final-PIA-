@@ -31,20 +31,48 @@
           </div>
     </header>
     
-    <div class="recuadro-Galeria">
+    <div class="recuadro-Galeria" onclick="mostrarInformacion(this)">
       <div class="contenido-Galeria">
-          <div class="titulo-Galeria">Título del Recuadro 1</div>
+          <div class="titulo-Galeria">Evento 1</div>
           <div class="fecha-Galeria">Mayo 20, 2024</div>
       </div>
-      <div class="rayitas-Galeria"></div>
+      <div class="rayitas-Galeria">_</div>
   </div>
 
-  <div class="recuadro-Galeria">
+  <div class="recuadro-Galeria" onclick="mostrarInformacion(this)">
       <div class="contenido-Galeria">
-          <div class="titulo-Galeria">Título del Recuadro 2</div>
+          <div class="titulo-Galeria">Evento 2</div>
           <div class="fecha-Galeria">Mayo 21, 2024</div>
       </div>
-      <div class="rayitas-Galeria"></div>
+      <div class="rayitas-Galeria">_</div>
+  </div>
+
+  <div class="recuadro-Galeria" onclick="mostrarInformacion(this)">
+    <div class="contenido-Galeria">
+        <div class="titulo-Galeria">Evento 3</div>
+        <div class="fecha-Galeria">Mayo 21, 2024</div>
+    </div>
+    <div class="rayitas-Galeria">_</div>
+  </div>
+
+  <div class="recuadro-Galeria" onclick="mostrarInformacion(this)">
+    <div class="contenido-Galeria">
+        <div class="titulo-Galeria">Evento 4</div>
+        <div class="fecha-Galeria">Mayo 21, 2024</div>
+    </div>
+    <div class="rayitas-Galeria">_</div>
+  </div>
+
+  <div class="recuadro-Galeria" onclick="mostrarInformacion(this)">
+    <div class="contenido-Galeria">
+        <div class="titulo-Galeria">Evento 5</div>
+        <div class="fecha-Galeria">Mayo 21, 2024</div>
+    </div>
+    <div class="rayitas-Galeria">_</div>
+  </div>
+
+  <div id="informacion" style="display: none;">
+    <!-- Aquí se mostrará la información del evento seleccionado -->
   </div>
 
     <footer class="footer">
@@ -70,5 +98,6 @@
     </footer>
     
 <script src="JavaScript/Mapa.js"></script>
+<script src="JavaScript/JSPaginaPrincipal.js"></script>
 </body>
 </html>
