@@ -317,6 +317,41 @@
 
 /* Estilos para la pantalla "Galería" */
 
+/* Estilos para el fondo oscurecido */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+/* Estilos para el modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+}
+
+/* Estilos para el botón de cierre */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
 .recuadro-Galeria {
   display: flex;
   align-items: center;

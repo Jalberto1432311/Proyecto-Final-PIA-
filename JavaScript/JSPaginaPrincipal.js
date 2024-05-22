@@ -12,4 +12,17 @@ function mostrarInformacion(elemento) {
     var informacion = document.getElementById("informacion");
     informacion.innerHTML = contenido;
     informacion.style.display = "block";
+
+    // Mostrar el fondo oscurecido
+    var overlay = document.getElementById("overlay");
+    overlay.style.display = "block";
+}
+
+function cerrarInformacion() {
+    // Ocultar la información y el fondo oscurecido
+    var informacion = document.getElementById("informacion");
+    informacion.style.display = "none";
+
+    var overlay = document.getElementById("overlay");
+    overlay.style.display = "none";
 }
