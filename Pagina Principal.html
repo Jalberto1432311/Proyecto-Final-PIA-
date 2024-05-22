@@ -71,85 +71,73 @@
 </header>
 
 
-  <div class="main-content">
-    <!-- Sección de imágenes de eventos -->
-    <div class="event-images">
-      <!-- Aquí puedes iterar sobre tu base de datos para mostrar las imágenes -->
-      <!-- Por ejemplo, puedes usar un bucle para mostrar las 12 imágenes -->
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
+<div class="main-content-eventos">
+  <!-- Sección de imágenes de eventos -->
+  <div class="event-images-eventos">
+      <div class="event-eventos" onclick="mostrarEvento(this)">
+          <img src="Imagenes/NA.jpg" alt="Evento 1">
+          <p class="nombre-eventos">Evento 1</p>
+          <p class="fecha-eventos">Fecha: 16 de Mayo, 2024</p>
+          <p class="hora-eventos">Hora: 18:00</p>
+          <p class="lugar-eventos">Lugar: Lugar del evento 1</p>
+          <p class="descripcion-eventos">Descripción del evento 1.</p>
+          <p class="reglamento-eventos" style="display: none;">Reglamento del evento 1.</p>
       </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
+      <div class="event-eventos" onclick="mostrarEvento(this)">
+          <img src="Imagenes/NA.jpg" alt="Evento 2">
+          <p class="nombre-eventos">Evento 2</p>
+          <p class="fecha-eventos">Fecha: 16 de Mayo, 2024</p>
+          <p class="hora-eventos">Hora: 18:00</p>
+          <p class="lugar-eventos">Lugar: Lugar del evento 2</p>
+          <p class="descripcion-eventos">Descripción del evento 2.</p>
+          <p class="reglamento-eventos" style="display: none;">Reglamento del evento 2.</p>
       </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
+      <div class="event-eventos" onclick="mostrarEvento(this)">
+          <img src="Imagenes/NA.jpg" alt="Evento 3">
+          <p class="nombre-eventos">Evento 3</p>
+          <p class="fecha-eventos">Fecha: 16 de Mayo, 2024</p>
+          <p class="hora-eventos">Hora: 18:00</p>
+          <p class="lugar-eventos">Lugar: Lugar del evento 3</p>
+          <p class="descripcion-eventos">Descripción del evento 3.</p>
+          <p class="reglamento-eventos" style="display: none;">Reglamento del evento 3.</p>
       </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
+      <div class="event-eventos" onclick="mostrarEvento(this)">
+          <img src="Imagenes/NA.jpg" alt="Evento 4">
+          <p class="nombre-eventos">Evento 4</p>
+          <p class="fecha-eventos">Fecha: 16 de Mayo, 2024</p>
+          <p class="hora-eventos">Hora: 18:00</p>
+          <p class="lugar-eventos">Lugar: Lugar del evento 4</p>
+          <p class="descripcion-eventos">Descripción del evento 4.</p>
+          <p class="reglamento-eventos" style="display: none;">Reglamento del evento 4.</p>
       </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
-      </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
-      </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
-      </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
-      </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
-      </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
-      </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
-      </div>
-      <div class="event">
-        <img src="Imagenes/NA.jpg" alt="Evento 1">
-        <p>Fecha: 16 de Mayo, 2024</p>
-        <p>Hora: 18:00</p>
-        <p>Lugar: Lugar del evento 1</p>
-      </div>
+      <!-- Repite los demás divs de la galería -->
+  </div>
+</div>
 
-      <!-- Repite este div para cada evento -->
+<div id="overlay-eventos" class="overlay-eventos" onclick="cerrarEvento()"></div>
+<div id="evento-info-eventos" class="modal-eventos">
+  <span class="close-eventos" onclick="cerrarEvento()">&times;</span>
+  <div class="modal-content-eventos">
+      <div class="modal-left-eventos">
+          <img id="modal-imagen-eventos" src="" alt="Evento">
+      </div>
+      <div class="modal-right-eventos">
+          <h2 id="modal-nombre-eventos"></h2>
+          <p id="modal-fecha-eventos"></p>
+          <p id="modal-hora-eventos"></p>
+          <p id="modal-lugar-eventos"></p>
+          <p id="modal-descripcion-eventos"></p>
+      </div>
+  </div>
+  <div class="modal-reglamento-eventos">
+      <h3>Reglamento</h3>
+      <p id="modal-reglamento-eventos"></p>
+  </div>
+</div>
+
+
+      
+
       <footer class="footer">
         <div class="footer-content">
           <!-- Redes sociales y contacto -->
@@ -174,5 +162,6 @@
       
   <script src="JavaScript/Mapa.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="JavaScript/JSPaginaPrincipal.js"></script>
 </body>
 </html>
