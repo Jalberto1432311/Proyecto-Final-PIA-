@@ -431,6 +431,61 @@
 .social-media img {
   width: 80px;
   margin-right: 10px;
+  
+}
+
+/* */
+/* */
+/* Estilo para la pantalla "Perfil Usuario" */
+
+/* Estilos para el contenedor del perfil */
+.profile-container-PerfilUsuario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado del perfil */
+.profile-header-PerfilUsuario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar-PerfilUsuario {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.username-PerfilUsuario {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.user-bio-PerfilUsuario {
+    font-style: italic;
+}
+
+/* Estilos para los detalles del perfil */
+.profile-details-PerfilUsuario {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section-title-PerfilUsuario {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.details-list-PerfilUsuario {
+    list-style-type: none;
+    padding: 0;
+}
+
+.detail-item-PerfilUsuario {
+    margin-bottom: 5px;
 }
 
 /* Estilos para la pantalla "Tienda" */
